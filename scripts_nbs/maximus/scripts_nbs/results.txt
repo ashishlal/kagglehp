@@ -1,0 +1,21 @@
+scratch1 - original script: 0.374
+scratch2 - f1_loss, metrics='accuracy', f1, 10 epochs, LB: 0.135
+scratch3 - 'binary_crossentropy', f1, 10 epochs, LB: 0.377
+scratch4 - 'binary_crossentropy', f1, 29 epochs, CV: 0.3526, LB: 0.411
+scratch5 - focal_loss_fixed, f1, 24 epocks, LB: 0.387
+scratch6 - 'binary_crossentropy', f1, 26 epochs, CV: 0.336
+scratch7 - 'binary_crossentropy'+f1-loss, image RGB+yellow,null,null,f1, 31 epochs, CV: 0.3536, LB: 0.389
+scratch8 - f1_loss, 120 epochs: CV: 0.3809, LB: 0.422 (CV again on 7/11: 0.3885)
+scratch9 - fast ai - not complete
+scratch10 - kfold, 10 epochs - 0.336 - ignore
+scratch11 - kfold, 10 epochs - 0.437
+scratch12 - kfold, 120 epochs - 0.469
+scratch13 - kfold, 120 epochs, added extra fit generator - 0.459
+scratch14 - MultilabelStratifiedShuffleSplit, 120 epochs, 0.466
+scratch15 - MultilabelStratifiedShuffleSplit test_size = 0.2, LB:0.461
+scratch16 - ignore
+scratch17 - kfold, model.load_weights, LB: 0.464
+scratch18 - weights binary_crossentropy + non-wighted f1 - ignore
+scratch19 - weighted binary cross entropy (not done)
+scratch20 - TTA, LB: 0.466
+scratch21 - TTA + load model weights, LB:

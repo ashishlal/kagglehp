@@ -1,0 +1,16 @@
+1. Focal loss (did not work)
+2. Add BCE loss to f1_loss (worked)
+2a. Test with yellow images as well (in progress)
+3. KFold and other iteration methods (Kfold worked, other methods, slightly worse results)
+3a. Experiment with class weights (did not work)
+3b. TTA (in progress)
+4. KFold + ridge (Kfold worked, ridge at after level 1 did not work)
+5. Multiple models
+6. Rdige ensemble
+7. add conv2d to test with yellow images
+8. greyscale + adding denoinsing and canny
+9. add F2 loss
+10.Adam + adagrad ( check!)
+11. image augmentation all of
+12. make variations of test images, predict all, take mean
+13. take mode='max' for modelcheckpoint, monitor='val_f1'
